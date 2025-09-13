@@ -1,0 +1,88 @@
+h1{
+margin-left: 4%;
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing:5px;
+}
+h5{
+    margin-left: 4%;
+}
+.head{
+    width: 80%;
+    height: 400px;
+    background-image: url("./img/zane.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 88% 500px;
+    z-index: -1;
+    margin-left: 11%;
+    margin-top: 1rem;
+}
+.search{
+background-color:rgba(245, 222, 179, 0.863);
+border-radius: 8px 22px;
+margin-left: 67%;
+}
+input{
+    height: 37px;
+    width: 200px;
+    border-color: lightpink;
+}
+#border{
+    border:lightgrey groove 30px;
+    padding:2rem 2rem;
+}
+.color{
+    background-color: wheat;
+}
+#welcome{
+    margin-top: 3rem;
+}
+.pic1{
+   
+    width: 80%;
+    height: 500px;
+    background-image: url("./img/jake.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 88% 500px;
+    margin-left: 15%;
+    margin-top: 1rem;
+}
+.pic2{
+    width: 80%;
+    height: 500px;
+    background-image: url("./img/jungwon.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 88% 500px;
+    margin-left: 15%;
+    margin-top: 1rem;
+}
+.para{
+    margin-top: 7rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ animation: right linear 4s infinite;
+ }
+ @keyframes right{
+    25%{
+        transform: rotateY(20deg);
+    }
+ }
+
+ .footer{
+    height: 400px;
+    background-color: rgba(245, 222, 179, 0.74);
+    border:groove lightslategrey 4px;
+ }
+.leftfooter{
+padding-left: 50%;
+
+}
+.rightfooter{
+    padding-left: 7rem;
+    padding-top: 4rem;
+}
+.sec{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

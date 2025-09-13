@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shop card simulation</title>
+    <script src="./action.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./bootstrap.js"></script>
+    </head>
+<body><div id="border">
+   
+    <div class="d-flex">
+    <h1> ENRIN</h1>
+     <input type="search" class="search" placeholder="search...">
+     </div>
+    
+
+    <nav class="navbar navbar-expand-lg color ">
+        <div class="container">
+            <div class="navbar-header">
+            </div>
+           
+               <button class="navbar-toggler bg-light" type="button" aria-controls="navbarnav" data-bs-toggle="collapse" data-bs-target="#navbarnav" aria-expanded="false">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div  class="collapse navbar-collapse" id="navbarnav">
+            <ul class="nav navbar-nav">
+
+                <li class="nav-item"> <a  class=nav-link href="#intro"rel="noopener noreferrer"> Intro</a></li>
+                <li class="nav-item"> <a  class=nav-link href="#form" rel="noopener noreferrer"> Form</a></li>
+                <li class="nav-item"> <a  class=nav-link href="#main" rel="noopener noreferrer"> items</a></li>
+                <li class="nav-item"> <a  class=nav-link href="#models" rel="noopener noreferrer"> Models</a></li>
+                <li class="nav-item"> <a  class=nav-link href="#discount" rel="noopener noreferrer"> Discount</a></li>
+            </ul>
+        </div> </div>
+    </nav>
+     <section id="intro">
+    <div class="head"></div>
+
+    <h1 id="welcome">Welcome to Enrin Beauty</h1>
+    <p>here we have lots of metarials, you can buy online whatever you want.😄<br>
+    we bought our skin cares from South Korea, as you may know korean people are famous because of their clean and shiny skin.<br>
+we are sure totally from our materials. cause we bought from an original company called Mystrofhis.<br>
+<br> check out this metarials and feel free to buy. </p>
+
+<h2 class="mt-5">fill this form if you wanna buy:</h2>
+</section>
+<section id="form">
+
+<form class="row g-2">
+    <div class="col-md-6">
+        <input class="form-control"type="text" placeholder="Enter your name"> </div> <div class="col-md-6">
+        <input class="form-control" type="text" placeholder="Enter your card number"></div>
+         <div class="row g-2">
+         <div class="col-md-6">
+        <input class="form-control" type="Email" placeholder=" Enter your Email"></div> <div class="col-md-6">
+        <input class="form-control" type="tel" placeholder="Enter your phone number"></div>
+        </div>
+            <div class="col-12 mt-3">
+                <textarea class="form-control" rows="5" placeholder="why you choosed to buy from Enrin shop?"></textarea>
+            </div>
+            <button onclick="send()" class="btn bg-info mt-4"> send</button>
+
+    </form>
+    </section>
+<br><Br><br><br><br>
+
+<hr>
+   <div id="div">
+   <h1 id="para">Shoping Cart</h1></div>
+
+<hr>
+     <section id="main">
+<h1 class="mt-5"> SKIN CARE</h1>
+        <div class="container mt-5">
+         <div class="row g-5">
+
+            <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/wonder eye.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">wonder Eye cream</h3><br>
+                <p class="card-text">700$</p>
+                <button  onclick="btn0()" id="btn0">shop now</button>
+                <!-- <button  onclick="del()" id="del">reemove</button> -->
+               
+                              
+       </div> </div></div>
+
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/susane kauf.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Susanne Kaufmann</h3><br>
+                <p class="card-text">59$</p>
+                <button onclick="btn1()" id="btn1">shop now</button>
+       </div> </div></div> 
+
+       <div class="col-md-3">
+              <div class="card h-100">
+                <img src="./img/exf.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Enzyme Exfoliator</h3><br>
+                <p class="card-text">710$</p>
+                <button onclick="btn2()" id="btn2">shop now</button>
+                
+       </div> </div></div>
+
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/skin harmony.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Skin Caviar</h3><br><br>
+                <p class="card-text">71$</p>
+                <button onclick="btn3()" id="btn3">shop now</button>
+
+       </div> </div></div> 
+
+            
+                <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/soothing.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Soothing cleansing milk</h3><br>
+                <p class="card-text">40$</p>
+                <button onclick="btn4()" id="btn4">shop now</button>
+
+       </div> </div></div> 
+
+       <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/glow mask.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Glow Mask</h3><br><br><br>
+                <p class="card-text">795$</p>
+                <button onclick="btn5()" id="btn5">shop now</button>
+
+       </div> </div></div> 
+
+       <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/eye.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Eye Rescue Serum</h3><br>
+                <p class="card-text">98$</p>
+                <button onclick="btn6()" id="btn6">shop now</button>
+
+       </div> </div></div> 
+
+       <div class="col-md-3">
+            <div class="card h-100">
+                <img src="./img/acid.jpg" class="card-img-top">
+                <div class="card-body">
+                <h3 class="card-title">Hyaluronic Acid Serum</h3><br>
+                <p class="card-text">89$</p>
+                <button onclick="btn7()" id="btn7">shop now</button>
+
+       </div> </div></div> 
+       </div> </div>
+    </section>
+
+     <section id="models">
+    <h1 class="mt-5"> ENRIN skin care Models</h1>
+<div id="card" class="pic1"></div>
+<button   onclick="btn()" id="btn">see another model</button>
+</section>
+
+<section id="discount">
+   <p class="para">
+
+<span style="color:palevioletred">SURPRIZE!!</span> we considered a discount. 😄<br><a href="" onclick="dis()" id="dis">click here for discount</a></p> 
+</section>
+
+
+
+<footer class="footer container mt-5">
+       <p class="rightfooter sec">i really put my everything to it<br>
+but sadly i couldn't add remove button<br>
+i tried many times to have a button for my card shop to be able<br>
+to delete them as well, but i couldn't.<br>
+hopefully it'll be ok.</p>
+           
+     <div class="leftfooter d-flex">
+             <button class=" bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#footerexample" aria-expanded="false">
+                <span class="footer-toggler-icon"></span>
+            </button> 
+            <div class="collapse footer-collapse" id="footerexample">
+            <div class="footer">
+                <h1 class="footer-header footer-item sec">😊 </h1>
+                <p class="footer-item sec"> thank you for seeing my web page.<br> i worked on html,css,bootstrap and javascipt. <p> 
+                
+        </div>
+        </div> 
+        <h1>NASRIN MIRZAYI </h1>
+        <p class="sec"> 2025 ENRIN online shop web page </p>
+       
+</div>
+	</div></footer>
+ </div></body>
+</html>
